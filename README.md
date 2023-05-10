@@ -16,3 +16,6 @@ The EduKG repository contains the following directories:
 - Original and Uplifted Datasets: Contains the input data files used to build the knowledge graph, as well as any uplifted datasets that were created.
 - R2RML Mapping Code: Contains code for the R2RML mapping used to transform the input data into RDF.
 - Widico Documentation: Contains documentation for the Widoco tool used to generate HTML documentation for the ontology.
+
+# Acknowledgements
+I would like to thank UNICEF for providing the education data used in this project, as well as our KDE instructor for guiding us through the project development process.
