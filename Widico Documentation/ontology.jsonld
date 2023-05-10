@@ -1,0 +1,175 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kdeproject.owl/CR_LS_Demography"
+    }, {
+      "@id" : "http://www.kdeproject.owl/CR_LS_GenderRates"
+    }, {
+      "@id" : "http://www.kdeproject.owl/CR_LS_WealthQuintile"
+    }, {
+      "@id" : "http://www.kdeproject.owl/CR_US_Demography"
+    }, {
+      "@id" : "http://www.kdeproject.owl/CR_US_GenderRates"
+    }, {
+      "@id" : "http://www.kdeproject.owl/CR_US_WealthQuintile"
+    }, {
+      "@id" : "http://www.kdeproject.owl/OOS_LS_Demography"
+    }, {
+      "@id" : "http://www.kdeproject.owl/OOS_LS_GenderRates"
+    }, {
+      "@id" : "http://www.kdeproject.owl/OOS_LS_WealthQuintile"
+    }, {
+      "@id" : "http://www.kdeproject.owl/OOS_US_Demography"
+    }, {
+      "@id" : "http://www.kdeproject.owl/OOS_US_GenderRates"
+    }, {
+      "@id" : "http://www.kdeproject.owl/OOS_US_WealthQuintile"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/CR_LS_Demography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/CR_LS_GenderRates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/CR_LS_WealthQuintile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/CR_US_Demography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/CR_US_GenderRates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/CR_US_WealthQuintile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.kdeproject.owl/SubRegion"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/ISO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/OOS_LS_Demography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/OOS_LS_GenderRates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/OOS_LS_WealthQuintile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/OOS_US_Demography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/OOS_US_GenderRates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/OOS_US_WealthQuintile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/SubRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/UnicefRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.kdeproject.owl/hasSubRegion"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kdeproject.owl/isPartOf"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/containsCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.kdeproject.owl/contains"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kdeproject.owl/hasSubRegion"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/containsSubRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.kdeproject.owl/contains"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kdeproject.owl/hasRegion"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/forISO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.kdeproject.owl/ISO"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/hasISOCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.kdeproject.owl/Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.kdeproject.owl/ISO"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kdeproject.owl/representsCountry"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/hasRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.kdeproject.owl/SubRegion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.kdeproject.owl/Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.kdeproject.owl/isPartOf"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/hasSubRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.kdeproject.owl/Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.kdeproject.owl/SubRegion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.kdeproject.owl/isPartOf"
+  } ]
+}, {
+  "@id" : "http://www.kdeproject.owl/isPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.kdeproject.owl/representsCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.kdeproject.owl/ISO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.kdeproject.owl/Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+} ]

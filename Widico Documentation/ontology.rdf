@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.kdeproject.owl#"
+     xml:base="http://www.kdeproject.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.kdeproject.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.kdeproject.owl/UnicefRegion -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/UnicefRegion">
+        <owl:equivalentProperty rdf:resource="http://www.kdeproject.owl/hasSubRegion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/contains -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/contains">
+        <owl:inverseOf rdf:resource="http://www.kdeproject.owl/isPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/containsCountry -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/containsCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.kdeproject.owl/contains"/>
+        <owl:inverseOf rdf:resource="http://www.kdeproject.owl/hasSubRegion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/containsSubRegion -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/containsSubRegion">
+        <rdfs:subPropertyOf rdf:resource="http://www.kdeproject.owl/contains"/>
+        <owl:inverseOf rdf:resource="http://www.kdeproject.owl/hasRegion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/forISO -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/forISO">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_LS_Demography"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_LS_GenderRates"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_LS_WealthQuintile"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_US_Demography"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_US_GenderRates"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/CR_US_WealthQuintile"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_LS_Demography"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_LS_GenderRates"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_LS_WealthQuintile"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_US_Demography"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_US_GenderRates"/>
+                    <rdf:Description rdf:about="http://www.kdeproject.owl/OOS_US_WealthQuintile"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.kdeproject.owl/ISO"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/hasISOCode -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/hasISOCode">
+        <owl:inverseOf rdf:resource="http://www.kdeproject.owl/representsCountry"/>
+        <rdfs:domain rdf:resource="http://www.kdeproject.owl/Country"/>
+        <rdfs:range rdf:resource="http://www.kdeproject.owl/ISO"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/hasRegion -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/hasRegion">
+        <rdfs:subPropertyOf rdf:resource="http://www.kdeproject.owl/isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.kdeproject.owl/SubRegion"/>
+        <rdfs:range rdf:resource="http://www.kdeproject.owl/Region"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/hasSubRegion -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/hasSubRegion">
+        <rdfs:subPropertyOf rdf:resource="http://www.kdeproject.owl/isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.kdeproject.owl/Country"/>
+        <rdfs:range rdf:resource="http://www.kdeproject.owl/SubRegion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/isPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/isPartOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kdeproject.owl/representsCountry -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kdeproject.owl/representsCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.kdeproject.owl/ISO"/>
+        <rdfs:range rdf:resource="http://www.kdeproject.owl/Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_LS_Demography -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_LS_Demography"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_LS_GenderRates -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_LS_GenderRates"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_LS_WealthQuintile -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_LS_WealthQuintile"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_US_Demography -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_US_Demography"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_US_GenderRates -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_US_GenderRates"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/CR_US_WealthQuintile -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/CR_US_WealthQuintile"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/Country -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/Country">
+        <owl:disjointWith rdf:resource="http://www.kdeproject.owl/SubRegion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kdeproject.owl/ISO -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/ISO"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_LS_Demography -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_LS_Demography"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_LS_GenderRates -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_LS_GenderRates"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_LS_WealthQuintile -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_LS_WealthQuintile"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_US_Demography -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_US_Demography"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_US_GenderRates -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_US_GenderRates"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/OOS_US_WealthQuintile -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/OOS_US_WealthQuintile"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/Region -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/Region"/>
+    
+
+
+    <!-- http://www.kdeproject.owl/SubRegion -->
+
+
+    <owl:Class rdf:about="http://www.kdeproject.owl/SubRegion"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

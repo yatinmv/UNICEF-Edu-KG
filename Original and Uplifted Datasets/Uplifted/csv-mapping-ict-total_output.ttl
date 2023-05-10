@@ -1,0 +1,1897 @@
+<http://www.kdeproject.owl/Tonga/EAP/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.329"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.403"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.364"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.367"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.126"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.183"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.517"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.292"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.337"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Sierra%20Leone/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Sierra%20Leone/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/Iraq/MENA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.038"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.032"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.051"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Sierra%20Leone>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Sierra Leone" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/Viet%20Nam/EAP/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Viet%20Nam/EAP/Female/Task> .
+
+<http://www.kdeproject.owl/Suriname/LAC/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Suriname/LAC/Female/Task> .
+
+<http://www.kdeproject.owl/Turkmenistan/EECA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Turkmenistan/EECA/Female/Task> .
+
+<http://www.kdeproject.owl/Iraq>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Iraq" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/MENA> .
+
+<http://www.kdeproject.owl/GHA>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Ghana> .
+
+<http://www.kdeproject.owl/Zimbabwe/ESA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Zimbabwe/ESA/Female/Task> .
+
+<http://www.kdeproject.owl/SLE>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Sierra%20Leone> .
+
+<http://www.kdeproject.owl/Tonga/EAP/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Tonga/EAP/Male/Task> .
+
+<http://www.kdeproject.owl/Kiribati/EAP/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.167"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.042"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.271"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.243"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.177"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.124"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.181"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.18"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/EAP>
+        a       <http://www.kdeproject.owl/UnicefRegion> ;
+        <http://www.kdeproject.owl/forGender>
+                <http://www.kdeproject.owl/Samoa/EAP/Female> , <http://www.kdeproject.owl/Samoa/EAP/Male> , <http://www.kdeproject.owl/Viet%20Nam/EAP/Female> , <http://www.kdeproject.owl/Tuvalu/EAP/Female> , <http://www.kdeproject.owl/Tuvalu/EAP/Male> , <http://www.kdeproject.owl/Lao%20PDR/EAP/Female> , <http://www.kdeproject.owl/Tonga/EAP/Male> , <http://www.kdeproject.owl/Tonga/EAP/Female> , <http://www.kdeproject.owl/Kiribati/EAP/Female> , <http://www.kdeproject.owl/Mongolia/EAP/Female> , <http://www.kdeproject.owl/Viet%20Nam/EAP/Male> , <http://www.kdeproject.owl/Kiribati/EAP/Male> ;
+        <http://www.kdeproject.owl/unicefRegionName>
+                "EAP" .
+
+<http://www.kdeproject.owl/Samoa>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Samoa" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EAP> .
+
+<http://www.kdeproject.owl/Algeria/MENA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Algeria/MENA/Female/Task> .
+
+<http://www.kdeproject.owl/Bangladesh/SA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.015"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.023"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.007"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Tuvalu/EAP/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Tuvalu/EAP/Male/Task> .
+
+<http://www.kdeproject.owl/ZWE>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Zimbabwe> .
+
+<http://www.kdeproject.owl/MENA>
+        a       <http://www.kdeproject.owl/UnicefRegion> ;
+        <http://www.kdeproject.owl/forGender>
+                <http://www.kdeproject.owl/Tunisia/MENA/Male> , <http://www.kdeproject.owl/Tunisia/MENA/Female> , <http://www.kdeproject.owl/State%20of%20Palestine/MENA/Female> , <http://www.kdeproject.owl/Iraq/MENA/Female> , <http://www.kdeproject.owl/Algeria/MENA/Female> ;
+        <http://www.kdeproject.owl/unicefRegionName>
+                "MENA" .
+
+<http://www.kdeproject.owl/Central%20African%20Republic/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Central%20African%20Republic/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/Guinea%20Bissau/WCA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Guinea%20Bissau/WCA/Male/Task> .
+
+<http://www.kdeproject.owl/Nepal/SA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Nepal/SA/Female/Task> .
+
+<http://www.kdeproject.owl/Mongolia/EAP/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.23"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.038"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.357"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.324"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.245"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.157"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.429"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.229"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.215"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Nepal/SA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.016"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.084"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.031"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.059"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Argentina/LAC/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Argentina/LAC/Female/Task> .
+
+<http://www.kdeproject.owl/Central%20African%20Republic/WCA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Central%20African%20Republic/WCA/Male/Task> .
+
+<http://www.kdeproject.owl/Tonga/EAP/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Tonga/EAP/Female/Task> .
+
+<http://www.kdeproject.owl/Central%20African%20Republic/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.007"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/SA>
+        a       <http://www.kdeproject.owl/UnicefRegion> ;
+        <http://www.kdeproject.owl/forGender>
+                <http://www.kdeproject.owl/Nepal/SA/Male> , <http://www.kdeproject.owl/Nepal/SA/Female> , <http://www.kdeproject.owl/Bangladesh/SA/Female> ;
+        <http://www.kdeproject.owl/unicefRegionName>
+                "SA" .
+
+<http://www.kdeproject.owl/Samoa/EAP/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Samoa/EAP/Female/Task> .
+
+<http://www.kdeproject.owl/Mongolia>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Mongolia" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EAP> .
+
+<http://www.kdeproject.owl/CAF>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Central%20African%20Republic> .
+
+<http://www.kdeproject.owl/Togo/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.029"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.015"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.041"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.018"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/MDG>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Madagascar> .
+
+<http://www.kdeproject.owl/Togo>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Togo" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/Turkmenistan/EECA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.129"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.284"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.306"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.094"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.102"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.054"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.349"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.245"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Lesotho/ESA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Lesotho/ESA/Female/Task> .
+
+<http://www.kdeproject.owl/IRQ>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Iraq> .
+
+<http://www.kdeproject.owl/LAC>
+        a       <http://www.kdeproject.owl/UnicefRegion> ;
+        <http://www.kdeproject.owl/forGender>
+                <http://www.kdeproject.owl/Suriname/LAC/Male> , <http://www.kdeproject.owl/Suriname/LAC/Female> , <http://www.kdeproject.owl/Cuba/LAC/Male> , <http://www.kdeproject.owl/Cuba/LAC/Female> , <http://www.kdeproject.owl/Argentina/LAC/Female> ;
+        <http://www.kdeproject.owl/unicefRegionName>
+                "LAC" .
+
+<http://www.kdeproject.owl/SUR>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Suriname> .
+
+<http://www.kdeproject.owl/GNB>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Guinea%20Bissau> .
+
+<http://www.kdeproject.owl/Chad/WCA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Chad/WCA/Male/Task> .
+
+<http://www.kdeproject.owl/ARG>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Argentina> .
+
+<http://www.kdeproject.owl/BGD>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Bangladesh> .
+
+<http://www.kdeproject.owl/TCA>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands> .
+
+<http://www.kdeproject.owl/Suriname/LAC/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.047"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.302"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.242"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.161"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.185"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.383"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.146"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.22"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands/EC/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands/EC/Male/Task> .
+
+<http://www.kdeproject.owl/MNG>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Mongolia> .
+
+<http://www.kdeproject.owl/TKM>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Turkmenistan> .
+
+<http://www.kdeproject.owl/Tunisia>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Tunisia" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/MENA> .
+
+<http://www.kdeproject.owl/Ghana/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Ghana/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/MWI>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Malawi> .
+
+<http://www.kdeproject.owl/Kiribati/EAP/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.139"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.291"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.264"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.11"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.094"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.155"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.324"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.166"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.233"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Cuba/LAC/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Cuba/LAC/Male/Task> .
+
+<http://www.kdeproject.owl/Malawi/ESA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.007"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.018"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.016"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.012"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.027"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.02"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Malawi/ESA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.051"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.016"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.043"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.027"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.073"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.067"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/WCA>
+        a       <http://www.kdeproject.owl/UnicefRegion> ;
+        <http://www.kdeproject.owl/forGender>
+                <http://www.kdeproject.owl/Sierra%20Leone/WCA/Female> , <http://www.kdeproject.owl/Chad/WCA/Male> , <http://www.kdeproject.owl/Central%20African%20Republic/WCA/Male> , <http://www.kdeproject.owl/Guinea%20Bissau/WCA/Female> , <http://www.kdeproject.owl/Gambia/WCA/Female> , <http://www.kdeproject.owl/Congo%20DR/WCA/Male> , <http://www.kdeproject.owl/Sao%20Tome%20and%20Principe/WCA/Female> , <http://www.kdeproject.owl/Togo/WCA/Female> , <http://www.kdeproject.owl/Ghana/WCA/Female> , <http://www.kdeproject.owl/Central%20African%20Republic/WCA/Female> , <http://www.kdeproject.owl/Congo%20DR/WCA/Female> , <http://www.kdeproject.owl/Gambia/WCA/Male> , <http://www.kdeproject.owl/Guinea%20Bissau/WCA/Male> , <http://www.kdeproject.owl/Chad/WCA/Female> ;
+        <http://www.kdeproject.owl/unicefRegionName>
+                "WCA" .
+
+<http://www.kdeproject.owl/Nepal>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Nepal" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/SA> .
+
+<http://www.kdeproject.owl/Guinea%20Bissau/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Guinea%20Bissau/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/LSO>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Lesotho> .
+
+<http://www.kdeproject.owl/Cuba/LAC/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.174"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.058"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.526"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.282"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.249"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.11"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.587"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.229"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.451"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Bangladesh>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Bangladesh" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/SA> .
+
+<http://www.kdeproject.owl/Chad/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.001"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Iraq/MENA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Iraq/MENA/Female/Task> .
+
+<http://www.kdeproject.owl/Sao%20Tome%20and%20Principe/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Sao%20Tome%20and%20Principe/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/Viet%20Nam/EAP/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.263"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.292"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.304"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.294"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.146"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.223"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.389"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.163"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.154"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/KIR>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Kiribati> .
+
+<http://www.kdeproject.owl/Tunisia/MENA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Tunisia/MENA/Female/Task> .
+
+<http://www.kdeproject.owl/Guinea%20Bissau/WCA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.013"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.07"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.101"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.065"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.082"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.126"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.112"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Togo/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Togo/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/Zimbabwe>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Zimbabwe" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/ESA> .
+
+<http://www.kdeproject.owl/TCD>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Chad> .
+
+<http://www.kdeproject.owl/Samoa/EAP/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.162"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.182"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.173"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.15"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.124"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.114"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.205"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.098"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.118"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Mongolia/EAP/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Mongolia/EAP/Female/Task> .
+
+<http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Turks and Caicos Islands" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EC> .
+
+<http://www.kdeproject.owl/Gambia>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Gambia" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/Cuba>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Cuba" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/LAC> .
+
+<http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands/EC/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.518"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.666"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.623"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.413"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.717"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Guinea%20Bissau>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Guinea Bissau" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/GMB>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Gambia> .
+
+<http://www.kdeproject.owl/Samoa/EAP/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.188"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.189"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.161"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.117"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.118"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.119"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.228"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.133"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Ghana/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.023"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.033"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/State%20of%20Palestine/MENA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.247"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.106"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.357"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.36"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.251"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.11"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.449"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.248"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.282"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Madagascar/ESA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.032"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.07"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.069"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.033"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.041"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.018"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.066"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Madagascar/ESA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.018"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.016"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.029"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Suriname/LAC/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Suriname/LAC/Male/Task> .
+
+<http://www.kdeproject.owl/Chad>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Chad" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/Gambia/WCA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Gambia/WCA/Male/Task> .
+
+<http://www.kdeproject.owl/DZA>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Algeria> .
+
+<http://www.kdeproject.owl/Chad/WCA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.005"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.023"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.012"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/EECA>
+        a       <http://www.kdeproject.owl/UnicefRegion> ;
+        <http://www.kdeproject.owl/forGender>
+                <http://www.kdeproject.owl/Turkmenistan/EECA/Female> ;
+        <http://www.kdeproject.owl/unicefRegionName>
+                "EECA" .
+
+<http://www.kdeproject.owl/Algeria>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Algeria" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/MENA> .
+
+<http://www.kdeproject.owl/Tuvalu/EAP/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.242"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.112"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.434"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.382"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.26"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.337"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.518"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.261"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.357"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Tonga/EAP/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.095"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.033"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.155"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.16"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.175"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.04"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.248"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.179"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Kiribati/EAP/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Kiribati/EAP/Male/Task> .
+
+<http://www.kdeproject.owl/State%20of%20Palestine/MENA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/State%20of%20Palestine/MENA/Female/Task> .
+
+<http://www.kdeproject.owl/Lesotho>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Lesotho" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/ESA> .
+
+<http://www.kdeproject.owl/Viet%20Nam>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Viet Nam" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EAP> .
+
+<http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands/EC/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands/EC/Female/Task> .
+
+<http://www.kdeproject.owl/Zimbabwe/ESA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.033"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.094"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.096"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.049"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.065"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.147"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.038"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.101"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Algeria/MENA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.132"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.245"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.244"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.192"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.143"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.159"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.278"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.131"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.171"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Kiribati/EAP/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Kiribati/EAP/Female/Task> .
+
+<http://www.kdeproject.owl/Turkmenistan>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Turkmenistan" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EECA> .
+
+<http://www.kdeproject.owl/Congo%20DR/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.029"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.028"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.015"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.04"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.018"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Cuba/LAC/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Cuba/LAC/Female/Task> .
+
+<http://www.kdeproject.owl/Malawi/ESA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Malawi/ESA/Female/Task> .
+
+<http://www.kdeproject.owl/Gambia/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.026"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.016"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.048"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.049"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.041"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.032"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.073"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.04"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Ghana>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Ghana" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/EC>
+        a       <http://www.kdeproject.owl/UnicefRegion> ;
+        <http://www.kdeproject.owl/forGender>
+                <http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands/EC/Male> , <http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands/EC/Female> ;
+        <http://www.kdeproject.owl/unicefRegionName>
+                "EC" .
+
+<http://www.kdeproject.owl/PSE>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/State%20of%20Palestine> .
+
+<http://www.kdeproject.owl/Tunisia/MENA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.091"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.308"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.328"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.244"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.169"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.205"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.426"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.206"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Malawi>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Malawi" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/ESA> .
+
+<http://www.kdeproject.owl/Malawi/ESA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Malawi/ESA/Male/Task> .
+
+<http://www.kdeproject.owl/Suriname>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Suriname" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/LAC> .
+
+<http://www.kdeproject.owl/Congo%20DR/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Congo%20DR/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/Tuvalu>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Tuvalu" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EAP> .
+
+<http://www.kdeproject.owl/Suriname/LAC/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.157"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.054"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.34"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.306"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.265"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.122"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.154"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.411"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.182"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.198"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Sierra%20Leone/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.013"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.013"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.005"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Sao%20Tome%20and%20Principe>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Sao Tome and Principe" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/STP>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Sao%20Tome%20and%20Principe> .
+
+<http://www.kdeproject.owl/Congo%20DR>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Congo DR" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/Zimbabwe/ESA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Zimbabwe/ESA/Male/Task> .
+
+<http://www.kdeproject.owl/Tunisia/MENA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.168"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.089"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.302"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.233"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.23"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.417"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.126"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.209"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Lao%20PDR/EAP/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.055"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.007"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.06"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.013"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.033"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.088"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.032"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.046"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Madagascar/ESA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Madagascar/ESA/Male/Task> .
+
+<http://www.kdeproject.owl/Nepal/SA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.098"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.023"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.163"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.196"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.125"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.07"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.117"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.066"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.163"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Cuba/LAC/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.136"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.064"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.369"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.44"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.174"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.172"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.146"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.405"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/COD>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Congo%20DR> .
+
+<http://www.kdeproject.owl/Kiribati>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Kiribati" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EAP> .
+
+<http://www.kdeproject.owl/TUN>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Tunisia> .
+
+<http://www.kdeproject.owl/VNM>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Viet%20Nam> .
+
+<http://www.kdeproject.owl/Chad/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Chad/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/Viet%20Nam/EAP/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.229"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.057"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.278"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.312"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.305"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.393"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.11"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.219"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Gambia/WCA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.06"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.125"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.137"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.079"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.052"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.086"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.174"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.058"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.136"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/TUV>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Tuvalu> .
+
+<http://www.kdeproject.owl/Samoa/EAP/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Samoa/EAP/Male/Task> .
+
+<http://www.kdeproject.owl/Gambia/WCA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Gambia/WCA/Female/Task> .
+
+<http://www.kdeproject.owl/Nepal/SA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Nepal/SA/Male/Task> .
+
+<http://www.kdeproject.owl/LAO>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Lao%20PDR> .
+
+<http://www.kdeproject.owl/Congo%20DR/WCA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Congo%20DR/WCA/Male/Task> .
+
+<http://www.kdeproject.owl/WSM>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Samoa> .
+
+<http://www.kdeproject.owl/Argentina>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Argentina" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/LAC> .
+
+<http://www.kdeproject.owl/CUB>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Cuba> .
+
+<http://www.kdeproject.owl/Guinea%20Bissau/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.042"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.022"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/NPL>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Nepal> .
+
+<http://www.kdeproject.owl/TGO>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Togo> .
+
+<http://www.kdeproject.owl/State%20of%20Palestine>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "State of Palestine" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/MENA> .
+
+<http://www.kdeproject.owl/Central%20African%20Republic/WCA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.003"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.031"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.025"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.011"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.043"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.007"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Bangladesh/SA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Bangladesh/SA/Female/Task> .
+
+<http://www.kdeproject.owl/Viet%20Nam/EAP/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Viet%20Nam/EAP/Male/Task> .
+
+<http://www.kdeproject.owl/ESA>
+        a       <http://www.kdeproject.owl/UnicefRegion> ;
+        <http://www.kdeproject.owl/forGender>
+                <http://www.kdeproject.owl/Zimbabwe/ESA/Male> , <http://www.kdeproject.owl/Zimbabwe/ESA/Female> , <http://www.kdeproject.owl/Malawi/ESA/Male> , <http://www.kdeproject.owl/Malawi/ESA/Female> , <http://www.kdeproject.owl/Madagascar/ESA/Male> , <http://www.kdeproject.owl/Madagascar/ESA/Female> , <http://www.kdeproject.owl/Lesotho/ESA/Female> ;
+        <http://www.kdeproject.owl/unicefRegionName>
+                "ESA" .
+
+<http://www.kdeproject.owl/Madagascar>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Madagascar" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/ESA> .
+
+<http://www.kdeproject.owl/Zimbabwe/ESA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.073"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.022"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.163"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.077"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.104"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.127"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.223"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.189"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Turks%20and%20Caicos%20Islands/EC/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.477"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.503"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.623"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.416"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.455"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.637"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.311"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.528"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Congo%20DR/WCA/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.01"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.104"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.099"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.055"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.127"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.077"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Argentina/LAC/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.239"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.458"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.459"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.548"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.279"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.393"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Madagascar/ESA/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Madagascar/ESA/Female/Task> .
+
+<http://www.kdeproject.owl/TON>
+        a       <http://www.kdeproject.owl/ISO> ;
+        <http://www.kdeproject.owl/representsCountry>
+                <http://www.kdeproject.owl/Tonga> .
+
+<http://www.kdeproject.owl/Tonga>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Tonga" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EAP> .
+
+<http://www.kdeproject.owl/Sao%20Tome%20and%20Principe/WCA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.058"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.137"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.131"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.101"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.066"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.09"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.052"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.13"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Lao%20PDR>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Lao PDR" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/EAP> .
+
+<http://www.kdeproject.owl/Tunisia/MENA/Male>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Male" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Tunisia/MENA/Male/Task> .
+
+<http://www.kdeproject.owl/Central%20African%20Republic>
+        a       <http://www.kdeproject.owl/Country> ;
+        <http://www.kdeproject.owl/countryName>
+                "Central African Republic" ;
+        <http://www.kdeproject.owl/hasUnicefRegion>
+                <http://www.kdeproject.owl/WCA> .
+
+<http://www.kdeproject.owl/Lao%20PDR/EAP/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Lao%20PDR/EAP/Female/Task> .
+
+<http://www.kdeproject.owl/Tuvalu/EAP/Male/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.081"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.062"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.336"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.36"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.086"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.129"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.433"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.059"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.355"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Lesotho/ESA/Female/Task>
+        a       <http://www.kdeproject.owl/ICT_TaskPerformed> ;
+        <http://www.kdeproject.owl/ARTHIMETIC_IN_SPREADSHEET>
+                "0.061"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COMPUTER_PROGRAM_IN_PROGLANG>
+                "0.019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COPY_PASTE_DOC>
+                "0.102"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/COP_FOLD_FILE>
+                "0.101"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/EMAIL_WITH_ATTACHMENT>
+                "0.053"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_A_NEW_DEVICE>
+                "0.062"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/INSTALL_SOFTWARE>
+                "0.066"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PERFORM_ACTIVITES>
+                "0.146"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/PRESENTATION_WITH_CONTENT>
+                "0.035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://www.kdeproject.owl/TRANSFER_FILE>
+                "0.102"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.kdeproject.owl/Tuvalu/EAP/Female>
+        a       <http://www.kdeproject.owl/ICT_Gender> ;
+        <http://www.kdeproject.owl/genderName>
+                "Female" ;
+        <http://www.kdeproject.owl/performsTask>
+                <http://www.kdeproject.owl/Tuvalu/EAP/Female/Task> .

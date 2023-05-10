@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./stylesLatest.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>KDE-Group H</title>
+</head>
+
+<body>
+    <div class="header1">
+        <p class="logo1">KDE-Group H</p>
+        <nav>
+            <ul class="navLinks">
+                <li onclick="displayHome()" class="home"><a href="#">HOME</a></li>
+                <li onclick="displayQueries()" class="sparql"><a href="#">SPARLQ</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="swiper mySwiper homePage">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <img src="./slide2.jpeg" class="unicefLogo">
+            </div>
+
+            <div class="swiper-slide">
+                <img src="./slide1.jpeg" class="children">
+            </div>
+
+            <div class="swiper-slide">
+                <div class="homeContent">
+                    <h3>PROJECT DETAILS</h3>
+                    <p>Domain: Education</p>
+                    <div class="datasets">
+                        <a
+                            href="https://data.unicef.org/wp-content/uploads/2019/09/Out_of_school_rate_2022_formatted.xlsx"><img
+                                src="./briefcase.png" class="briefcase" />Out of School Rate 2022</a>
+                    </div>
+                    <div class="datasets">
+                        <a
+                            href="https://data.unicef.org/wp-content/uploads/2019/09/Completion_rate_2022_formatted.xlsx"><img
+                                src="./briefcase.png" class="briefcase" />Completion Rate 2022</a>
+                    </div>
+                    <div class="datasets">
+                        <a href="https://data.unicef.org/wp-content/uploads/2021/04/ICT-Skills_2022.xlsx"><img
+                                src="./briefcase.png" class="briefcase" />ICT Skills 2022</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="homeContent">
+                    <h3>GROUP MEMBERS</h3>
+                    <div class="nameCard"><img src="./android-chrome-512x512 copy.png">VIVEK BHADULA</div>
+                    <div class="nameCard"><img src="./android-chrome-512x512 copy.png">VATSAL TULSHYAN</div>
+                    <div class="nameCard"><img src="./android-chrome-512x512 copy.png">YATIN MOHAN VAID</div>
+                    <div class="nameCard"><img src="./android-chrome-512x512.png">YIRUO ZHANG</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="swiper-button-next"></div> -->
+        <!-- <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="sparqlPage hide-content">
+        <h3>COMPETENCY QUESTIONS</h3>
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 1</strong><br>How does the ratio of Out of school and completion rates differ based
+                    on More developed and less developed countries for males in upper secondary schools ?</h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>PREFIX oo: &lt;http://www.kdeproject.owl/> <br>
+                    PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/> <br>
+                    select ?ratio ?devRegion where { <br>
+                    ?s1 a oo:CR_US_GenderRates.<br>
+                    ?s2 a oo:OOS_US_GenderRates.<br>
+                    ?s1 oo:malepercent ?completionRate.<br>
+                    ?s2 oo:malepercent ?outOfSchoolRate.<br>
+                    ?s1 oo:forISO ?iso.<br>
+                    ?s2 oo:forISO ?iso.<br>
+                    ?iso foaf:DevelopmentRegions ?devRegion<br>
+                    BIND ((?completionRate/?outOfSchoolRate) AS ?ratio)<br>
+                    }<br>
+                    ORDER BY(?devRegion)
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub1" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 2</strong><br>Which country has the highest completion rate and which has the
+                    highest out of school rates for females in lower secondary ? Do they both belong to the same
+                    development regions or different?
+                </h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo:
+                    &lt;http: //www.kdeproject.owl /><br>
+                    PREFIX foaf:
+                    &lt;http: //xmlns.com/foaf/0.1 /><br>
+
+                    SELECT ?country ?devRegion ?femalecompletionRate ?femaleoutOfSchoolRate<br>
+                    WHERE { {<br>
+                    ?s oo:femalepercent ?femalecompletionRate .<br>
+                    ?s oo:forISO ?iso.<br>
+                    ?iso oo:representsCountry ?country.<br>
+                    ?iso foaf:DevelopmentRegions ?devRegion<br>
+
+
+                    FILTER EXISTS {<br>
+                    { SELECT (MAX (?completionRate) AS ?MaxcompletionRate){<br>
+                    ?s1 a oo:CR_LS_GenderRates.<br>
+                    ?s1 oo:femalepercent ?completionRate.<br>
+                    }<br>
+                    }<br>
+                    FILTER ( ?femalecompletionRate = ?MaxcompletionRate )<br>
+                    }<br>
+
+                    } UNION {<br>
+                    ?s oo:femalepercent ?femaleoutOfSchoolRate .<br>
+                    ?s oo:forISO ?iso.<br>
+                    ?iso oo:representsCountry ?country.<br>
+                    ?iso foaf:DevelopmentRegions ?devRegion<br>
+                    FILTER EXISTS {<br>
+                    { SELECT (MAX (?outOfSchoolRate) AS ?MaxoutOfSchoolRate){<br>
+                    ?s2 a oo:OOS_LS_GenderRates.<br>
+                    ?s2 oo:femalepercent ?outOfSchoolRate.<br>
+                    }<br>
+                    }<br>
+                    FILTER ( ?femaleoutOfSchoolRate = ?MaxoutOfSchoolRate )<br>
+                    }<br>
+                    }<br>
+                    }
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub2" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 3</strong><br>What percentage of females belonging to least developed regions were
+                    able to perform the task of copying or moving a file?
+                    <br>Group the results based on Unicef Regions.
+                </h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo:
+                    &lt;http: //www.kdeproject.owl /><br>
+                    PREFIX foaf:
+                    &lt;http: //xmlns.com/foaf/0.1 /><br>
+
+                    select ?unicefRegion (SUM(?value) AS ?<br>SumOfTaskPerformedPercentagePerUnicefRegion) where {<br>
+                    ?iso foaf:DevelopmentRegions "Least Developed".<br>
+                    ?iso oo:representsCountry ?country.<br>
+                    ?country oo:countryName ?name.<br>
+                    ?country oo:hasUnicefRegion ?unicefRegion.<br>
+                    ?unicefRegion oo:forGender ?gender.<br>
+                    ?gender oo:genderName "Female".<br>
+                    ?gender oo:performsTask ?taskPerformed.<br>
+                    ?taskPerformed oo:COP_FOLD_FILE ?value<br>
+
+                    }<br>
+                    GROUP BY(?unicefRegion)
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub3" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 4</strong><br>What is the corelation of completionRates and out of School Rates for
+                    Upper Secondary students with the student's area of residence(Rural/Urban)?
+                </h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo: &lt;http: //www.kdeproject.owl /><br>
+                    PREFIX foaf: &lt;http: //xmlns.com/foaf/0.1 /><br>
+                    select ?countryName ?ruralCompletionRates ?urbanCompletionRates ?ruraloutOfSchoolRates<br>
+                    ?urbanoutOfSchoolRates where {<br>
+                    ?demography a oo:CR_US_Demography.<br>
+                    ?demography2 a oo:OOS_US_Demography.<br>
+                    ?demography oo:forISO ?iso .<br>
+                    ?demography2 oo:forISO ?iso .<br>
+                    ?iso oo:representsCountry ?country.<br>
+                    ?country oo:countryName ?countryName.<br>
+                    ?demography oo:ruralResidence ?ruralCompletionRates.<br>
+                    ?demography oo:urbanResidence ?urbanCompletionRates.<br>
+                    ?demography2 oo:ruralResidence ?ruraloutOfSchoolRates.<br>
+                    ?demography2 oo:urbanResidence ?urbanoutOfSchoolRates.<br>
+                    }
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub4" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 5</strong><br>How does the Upper Secondary out-of-school rates of males in
+                    Indonesia compare with their completion rates ?</h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo:
+                    &lt;http: //www.kdeproject.owl /><br>
+
+                    select ?maleCompletionRate ?MaleOutOfSchoolRate where {<br>
+                    ?s1 a oo:CR_US_GenderRates.<br>
+                    ?s2 a oo:OOS_US_GenderRates.<br>
+                    ?s1 oo:malepercent ?maleCompletionRate.<br>
+                    ?s2 oo:malepercent ?MaleOutOfSchoolRate.<br>
+                    ?s1 oo:forISO ?iso.<br>
+                    ?s2 oo:forISO ?iso.<br>
+                    ?iso oo:representsCountry oo:Indonesia<br>
+                    }
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub5" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 6</strong><br>Which country in region ECA has the most percentage of females who
+                    were able to create a Powerpoint presentation?</h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo:
+                    &lt;http: //www.kdeproject.owl /><br>
+                    select ?country ?ppt where {<br>
+                    ?iso a oo:ISO .<br>
+                    ?iso oo:representsCountry ?country .<br>
+                    ?country oo:hasSubRegion ?subRegion .<br>
+                    ?subRegion oo:hasRegion ?Region .<br>
+                    ?Region oo:regionName ?name_of_Region .<br>
+                    ?country oo:hasUnicefRegion ?unicefRegion .<br>
+                    ?uniefRegion oo:unicefRegionName ?name .<br>
+                    ?unicefRegion oo:forGender ?gender .<br>
+                    ?gender oo:performsTask ?task .<br>
+                    ?task oo:PRESENTATION_WITH_CONTENT ?ppt .<br>
+                    FILTER(?name_of_Region="ECA" && ?subRegion = ?unicefRegion)<br>
+                    } LIMIT 1
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub6" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 7</strong><br>What percentage of the poor people have installed software in the
+                    computer and completed their education?</h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo:
+                    &lt;http: //www.kdeproject.owl /><br>
+                    select ?install_software where {<br>
+                    ?s1 a oo:CR_US_WealthQuintile .<br>
+                    ?s1 oo:poorestquintile ?poor .<br>
+                    ?s1 oo:forISO ?iso .<br>
+                    ?iso oo:representsCountry ?country .<br>
+                    ?country oo:hasSubRegion ?subRegion .<br>
+                    ?subRegion oo:hasRegion ?Region .<br>
+                    ?Region oo:regionName ?name_of_Region .<br>
+                    ?country oo:hasUnicefRegion ?unicefRegion .<br>
+                    ?uniefRegion oo:unicefRegionName ?name .<br>
+                    ?unicefRegion oo:forGender ?gender .<br>
+                    # ?gender oo:hasWealthQ ?wealth .<br>
+                    # ?wealth oo:ictWealthQ ?weath_q .<br>
+                    # ?wealth oo:performsTask ?task .<br>
+                    ?gender oo:performsTask ?task .<br>
+                    ?task oo:INSTALL_SOFTWARE ?install_software .<br>
+                    FILTER(?poor>0 && ?subRegion = ?unicefRegion)<br>
+                    } LIMIT 1
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub7" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 8</strong><br>Find the country with maximum Email Attachment Percentage and for
+                    that country compute its totalCompletion and totalOutOfSchool Population.</h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo:
+                    &lt;http: //www.kdeproject.owl /><br>
+                    SELECT (?name as ?CountryName) (?Sum as ?AttachmentPercentage) ?<br>totalCompletionRate<br>
+                    ?totalOutOfSchoolRate WHERE{<br>
+                    ?s1 a oo:CR_US_GenderRates.<br>
+                    ?s2 a oo:OOS_US_GenderRates.<br>
+                    ?s1 oo:femalepercent ?femaleCompletionRate.<br>
+                    ?s2 oo:femalepercent ?femaleOutOfSchoolRate.<br>
+                    ?s1 oo:malepercent ?maleCompletionRate.<br>
+                    ?s2 oo:malepercent ?maleOutOfSchoolRate.<br>
+                    ?s1 oo:forISO ?ISO .<br>
+                    ?s2 oo:forISO ?ISO .<br>
+                    # ?ISO a oo:ISO .<br>
+                    ?ISO oo:representsCountry ?COUNTRY .<br>
+                    ?COUNTRY oo:countryName ?name .<br>
+                    FILTER(?COUNTRY = ?country)<br>
+                    BIND(?femaleCompletionRate + ?maleCompletionRate as ?totalCompletionRate)<br>
+                    BIND(?maleOutOfSchoolRate + ?femaleOutOfSchoolRate as ?totalOutOfSchoolRate)<br>
+                    {<br>
+                    select ?country (SUM(?Attachment) as ?Sum) where {<br>
+                    ?iso a oo:ISO.<br>
+                    ?iso oo:representsCountry ?country .<br>
+                    ?country oo:hasUnicefRegion ?unicefRegion .<br>
+                    ?unicefRegion oo:forGender ?gender .<br>
+                    ?gender oo:genderName ?genderName .<br>
+                    ?gender oo:performsTask ?task .<br>
+                    ?task oo:EMAIL_WITH_ATTACHMENT ?Attachment .<br>
+                    }<br>
+                    GROUP BY(?country)<br>
+                    ORDER BY DESC(?Sum)<br>
+                    LIMIT 1<br>
+                    }<br>
+                    }
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub8" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 9</strong><br>Find the average completion and out of school rates for countries in
+                    the poorest wealth quintile? What countries have their completion rate and out of school rates above
+                    the threshold (avg. values)?
+                </h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo: &lt;http: //www.kdeproject.owl /><br>
+                    select ?outOfSchoolRate ?completionRate where {<br>
+                    ?s1 a oo:CR_LS_GenderRates.<br>
+                    ?s2 a oo:OOS_LS_GenderRates.<br>
+                    ?s1 oo:femalepercent ?completionRate.<br>
+                    ?s2 oo:femalepercent ?outOfSchoolRate.<br>
+                    ?s1 oo:forISO ?iso.<br>
+                    ?s2 oo:forISO ?iso.<br>
+                    ?iso oo:name "India".<br>
+                    }
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub9" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h4><strong>Question 10</strong><br>The country with the maximum completion rate for females in upper
+                    secondary belongs to which region? What are the corresponding out-of-school rates of females for
+                    this country?</h4>
+                <p class="plus">+</p>
+            </div>
+            <div class="answer">
+                <p>
+                    PREFIX oo:
+                    &lt;http: //www.kdeproject.owl /><br>
+                    SELECT ?completoos ?country ?reg WHERE {<br>
+                    ?s2 a oo:OOS_US_GenderRates.<br>
+                    ?s2 oo:femalepercent ?completoos .<br>
+                    ?s2 oo:forISO ?iso_oos .<br>
+                    ?iso_oos oo:representsCountry ?country_oos .<br>
+                    ?country_oos oo:hasSubRegion ?sub_reg .<br>
+                    ?sub_reg oo:hasRegion ?reg .<br>
+                    FILTER(?country_oos = ?country)<br>
+
+                    {SELECT ?country WHERE{<br>
+                    ?GenderLS a oo:CR_US_GenderRates.<br>
+                    ?GenderLS oo:femalepercent ?completionRate_LS.<br>
+                    ?GenderLS oo:forISO ?iso.<br>
+                    ?iso oo:representsCountry ?country .<br>
+                    FILTER(?completionRate_LS = ?MAX_GenderRate)<br>
+                    {<br>
+                    select (MAX(?completionRate) AS ?MAX_GenderRate) where {<br>
+                    ?s1 a oo:CR_US_GenderRates.<br>
+                    ?s1 oo:femalepercent ?completionRate.<br>
+                    }<br>
+                    }<br>
+                    }<br>
+                    }<br>
+                    }
+                </p>
+                <div class="btn">
+                    <a href="#" class="submit sub10" onclick="openPopup()">Submit</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="overlay hide-content">
+        <div class="overlayContent">
+            <p class="close" onclick="closeOverlay()">X</p>
+            <div class="overlayText"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./indexLatest.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

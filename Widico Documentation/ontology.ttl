@@ -1,0 +1,161 @@
+@prefix : <http://www.kdeproject.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.kdeproject.owl#> .
+
+<http://www.kdeproject.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.kdeproject.owl/UnicefRegion
+<http://www.kdeproject.owl/UnicefRegion> rdf:type owl:ObjectProperty ;
+                                         owl:equivalentProperty <http://www.kdeproject.owl/hasSubRegion> .
+
+
+###  http://www.kdeproject.owl/contains
+<http://www.kdeproject.owl/contains> rdf:type owl:ObjectProperty ;
+                                     owl:inverseOf <http://www.kdeproject.owl/isPartOf> ;
+                                     rdf:type owl:TransitiveProperty .
+
+
+###  http://www.kdeproject.owl/containsCountry
+<http://www.kdeproject.owl/containsCountry> rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf <http://www.kdeproject.owl/contains> ;
+                                            owl:inverseOf <http://www.kdeproject.owl/hasSubRegion> .
+
+
+###  http://www.kdeproject.owl/containsSubRegion
+<http://www.kdeproject.owl/containsSubRegion> rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf <http://www.kdeproject.owl/contains> ;
+                                              owl:inverseOf <http://www.kdeproject.owl/hasRegion> .
+
+
+###  http://www.kdeproject.owl/forISO
+<http://www.kdeproject.owl/forISO> rdf:type owl:ObjectProperty ;
+                                   rdfs:domain [ rdf:type owl:Class ;
+                                                 owl:unionOf ( <http://www.kdeproject.owl/CR_LS_Demography>
+                                                               <http://www.kdeproject.owl/CR_LS_GenderRates>
+                                                               <http://www.kdeproject.owl/CR_LS_WealthQuintile>
+                                                               <http://www.kdeproject.owl/CR_US_Demography>
+                                                               <http://www.kdeproject.owl/CR_US_GenderRates>
+                                                               <http://www.kdeproject.owl/CR_US_WealthQuintile>
+                                                               <http://www.kdeproject.owl/OOS_LS_Demography>
+                                                               <http://www.kdeproject.owl/OOS_LS_GenderRates>
+                                                               <http://www.kdeproject.owl/OOS_LS_WealthQuintile>
+                                                               <http://www.kdeproject.owl/OOS_US_Demography>
+                                                               <http://www.kdeproject.owl/OOS_US_GenderRates>
+                                                               <http://www.kdeproject.owl/OOS_US_WealthQuintile>
+                                                             )
+                                               ] ;
+                                   rdfs:range <http://www.kdeproject.owl/ISO> .
+
+
+###  http://www.kdeproject.owl/hasISOCode
+<http://www.kdeproject.owl/hasISOCode> rdf:type owl:ObjectProperty ;
+                                       owl:inverseOf <http://www.kdeproject.owl/representsCountry> ;
+                                       rdfs:domain <http://www.kdeproject.owl/Country> ;
+                                       rdfs:range <http://www.kdeproject.owl/ISO> .
+
+
+###  http://www.kdeproject.owl/hasRegion
+<http://www.kdeproject.owl/hasRegion> rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf <http://www.kdeproject.owl/isPartOf> ;
+                                      rdfs:domain <http://www.kdeproject.owl/SubRegion> ;
+                                      rdfs:range <http://www.kdeproject.owl/Region> .
+
+
+###  http://www.kdeproject.owl/hasSubRegion
+<http://www.kdeproject.owl/hasSubRegion> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf <http://www.kdeproject.owl/isPartOf> ;
+                                         rdfs:domain <http://www.kdeproject.owl/Country> ;
+                                         rdfs:range <http://www.kdeproject.owl/SubRegion> .
+
+
+###  http://www.kdeproject.owl/isPartOf
+<http://www.kdeproject.owl/isPartOf> rdf:type owl:ObjectProperty ,
+                                              owl:TransitiveProperty .
+
+
+###  http://www.kdeproject.owl/representsCountry
+<http://www.kdeproject.owl/representsCountry> rdf:type owl:ObjectProperty ;
+                                              rdfs:subPropertyOf owl:topObjectProperty ;
+                                              rdf:type owl:FunctionalProperty ;
+                                              rdfs:domain <http://www.kdeproject.owl/ISO> ;
+                                              rdfs:range <http://www.kdeproject.owl/Country> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.kdeproject.owl/CR_LS_Demography
+<http://www.kdeproject.owl/CR_LS_Demography> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/CR_LS_GenderRates
+<http://www.kdeproject.owl/CR_LS_GenderRates> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/CR_LS_WealthQuintile
+<http://www.kdeproject.owl/CR_LS_WealthQuintile> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/CR_US_Demography
+<http://www.kdeproject.owl/CR_US_Demography> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/CR_US_GenderRates
+<http://www.kdeproject.owl/CR_US_GenderRates> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/CR_US_WealthQuintile
+<http://www.kdeproject.owl/CR_US_WealthQuintile> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/Country
+<http://www.kdeproject.owl/Country> rdf:type owl:Class ;
+                                    owl:disjointWith <http://www.kdeproject.owl/SubRegion> .
+
+
+###  http://www.kdeproject.owl/ISO
+<http://www.kdeproject.owl/ISO> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/OOS_LS_Demography
+<http://www.kdeproject.owl/OOS_LS_Demography> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/OOS_LS_GenderRates
+<http://www.kdeproject.owl/OOS_LS_GenderRates> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/OOS_LS_WealthQuintile
+<http://www.kdeproject.owl/OOS_LS_WealthQuintile> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/OOS_US_Demography
+<http://www.kdeproject.owl/OOS_US_Demography> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/OOS_US_GenderRates
+<http://www.kdeproject.owl/OOS_US_GenderRates> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/OOS_US_WealthQuintile
+<http://www.kdeproject.owl/OOS_US_WealthQuintile> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/Region
+<http://www.kdeproject.owl/Region> rdf:type owl:Class .
+
+
+###  http://www.kdeproject.owl/SubRegion
+<http://www.kdeproject.owl/SubRegion> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

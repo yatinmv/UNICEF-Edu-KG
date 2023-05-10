@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hide-content {
+    display: none !important;
+}
+
+.header1 li,.header1 a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #24252A;
+    /* changed */
+    z-index: 5;
+    position: relative;
+}
+
+.logo1 {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.navLinks a:hover {
+    color: #0088a9;
+}
+
+/* Swiper */
+html, body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    /* changed */
+    margin-top: -80px; 
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 10%;
+    right: auto;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 10%;
+    left: auto;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+    width: 20px;
+    height: 20px;
+}
+
+img.unicefLogo {
+    max-height: 500px;
+    max-width: 500px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+img.children {
+    object-fit: cover;
+}
+
+.homeContent {
+    height: 80%;
+    max-width: 700px;
+    max-height: 700px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContent h3{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.homeContent p{
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.datasets a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.datasets{
+    margin-bottom: 30px;
+}
+
+img.briefcase {
+    height: 35px;
+    width: 35px;
+}
+
+.nameCard{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.nameCard img{
+    object-fit: contain;
+    max-width: 40px;
+    max-height: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+/* SPARQL PAGE */
+.sparqlPage{
+    background-color: #24252A;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.sparqlPage h3{
+    font-size: 50px;
+    padding-top: 25px;
+    border-top: 1px dotted white;
+    margin-bottom: 40px;
+}
+
+.sparqlPage h4 {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.question strong{
+    line-height: 50px;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.question:hover {
+    color: aqua;
+}
+
+.answer p{
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: 15px;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    /* transition: max-height 1.4s ease; */
+    animation: answerT 1.4s ease;
+    background-color: black;
+    color: greenyellow;
+    margin-top: 15px;
+    border-radius: 10px;
+    cursor: crosshair;
+    font-family: 'Fira Code', monospace;
+}
+
+.answer p{
+    margin: 5px 20px 15px;
+    font-family: 'Fira Code', monospace;
+}
+
+.plus {
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 30px;
+    transition: transform 0.7s ease-in;
+}
+
+.faq {
+    margin: 10px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.faq.active .answer{
+    max-height: 10000px;
+    animation: fade 1s ease-in-out;
+}
+
+.submit {
+    font-size: 15px;
+    background-color: greenyellow;
+    color: black;
+    padding: 5px 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.submit:hover {
+    background-color: rgb(48, 72, 12);
+    color: white;
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+.faq.active .plus{
+    transform: rotate(45deg);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes answerT {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+
+
+
+/* Overlay */
+.overlay {
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    padding: 50px;
+    position: relative;
+    margin-top: -80px;
+}
+
+.overlayText {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+p.close {
+    transform: rotate(90deg);
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 40px;
+    text-decoration: solid;
+}
+
+.overlayContent {
+    position: absolute;
+    overflow: scroll;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.overlay table {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.overlay th {
+    text-align: center;
+    border: 5px solid white;
+    color: chartreuse;
+    padding: 10px 20px;
+    word-break: break-all;
+    min-width: 200px;
+    max-width: 275px;
+    font-size: 23px;
+    width: 100%;
+}
+
+.overlay td {
+    text-align: center;
+    border: 1px solid white;
+    max-width: 275px;
+    word-break: break-word;
+    padding: 2px 5px;
+    font-size: 18px;
+    width: 275px;
+}

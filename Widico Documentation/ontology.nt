@@ -1,0 +1,160 @@
+<http://www.kdeproject.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.kdeproject.owl/UnicefRegion
+<http://www.kdeproject.owl/UnicefRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/UnicefRegion> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.kdeproject.owl/hasSubRegion> .
+# 
+# http://www.kdeproject.owl/contains
+<http://www.kdeproject.owl/contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/contains> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kdeproject.owl/isPartOf> .
+<http://www.kdeproject.owl/contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.kdeproject.owl/containsCountry
+<http://www.kdeproject.owl/containsCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/containsCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kdeproject.owl/contains> .
+<http://www.kdeproject.owl/containsCountry> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kdeproject.owl/hasSubRegion> .
+# 
+# http://www.kdeproject.owl/containsSubRegion
+<http://www.kdeproject.owl/containsSubRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/containsSubRegion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kdeproject.owl/contains> .
+<http://www.kdeproject.owl/containsSubRegion> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kdeproject.owl/hasRegion> .
+# 
+# http://www.kdeproject.owl/forISO
+<http://www.kdeproject.owl/forISO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/forISO> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/OOS_US_WealthQuintile> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/OOS_US_GenderRates> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/OOS_US_Demography> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/OOS_LS_WealthQuintile> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/OOS_LS_GenderRates> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/OOS_LS_Demography> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/CR_US_WealthQuintile> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/CR_US_GenderRates> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/CR_US_Demography> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/CR_LS_WealthQuintile> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/CR_LS_GenderRates> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kdeproject.owl/CR_LS_Demography> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kdeproject.owl/forISO> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kdeproject.owl/ISO> .
+# 
+# http://www.kdeproject.owl/hasISOCode
+<http://www.kdeproject.owl/hasISOCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/hasISOCode> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kdeproject.owl/representsCountry> .
+<http://www.kdeproject.owl/hasISOCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.kdeproject.owl/Country> .
+<http://www.kdeproject.owl/hasISOCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kdeproject.owl/ISO> .
+# 
+# http://www.kdeproject.owl/hasRegion
+<http://www.kdeproject.owl/hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/hasRegion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kdeproject.owl/isPartOf> .
+<http://www.kdeproject.owl/hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.kdeproject.owl/SubRegion> .
+<http://www.kdeproject.owl/hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kdeproject.owl/Region> .
+# 
+# http://www.kdeproject.owl/hasSubRegion
+<http://www.kdeproject.owl/hasSubRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/hasSubRegion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.kdeproject.owl/isPartOf> .
+<http://www.kdeproject.owl/hasSubRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.kdeproject.owl/Country> .
+<http://www.kdeproject.owl/hasSubRegion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kdeproject.owl/SubRegion> .
+# 
+# http://www.kdeproject.owl/isPartOf
+<http://www.kdeproject.owl/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.kdeproject.owl/representsCountry
+<http://www.kdeproject.owl/representsCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kdeproject.owl/representsCountry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.kdeproject.owl/representsCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.kdeproject.owl/representsCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.kdeproject.owl/ISO> .
+<http://www.kdeproject.owl/representsCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.kdeproject.owl/Country> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.kdeproject.owl/CR_LS_Demography
+<http://www.kdeproject.owl/CR_LS_Demography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/CR_LS_GenderRates
+<http://www.kdeproject.owl/CR_LS_GenderRates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/CR_LS_WealthQuintile
+<http://www.kdeproject.owl/CR_LS_WealthQuintile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/CR_US_Demography
+<http://www.kdeproject.owl/CR_US_Demography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/CR_US_GenderRates
+<http://www.kdeproject.owl/CR_US_GenderRates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/CR_US_WealthQuintile
+<http://www.kdeproject.owl/CR_US_WealthQuintile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/Country
+<http://www.kdeproject.owl/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kdeproject.owl/Country> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.kdeproject.owl/SubRegion> .
+# 
+# http://www.kdeproject.owl/ISO
+<http://www.kdeproject.owl/ISO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/OOS_LS_Demography
+<http://www.kdeproject.owl/OOS_LS_Demography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/OOS_LS_GenderRates
+<http://www.kdeproject.owl/OOS_LS_GenderRates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/OOS_LS_WealthQuintile
+<http://www.kdeproject.owl/OOS_LS_WealthQuintile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/OOS_US_Demography
+<http://www.kdeproject.owl/OOS_US_Demography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/OOS_US_GenderRates
+<http://www.kdeproject.owl/OOS_US_GenderRates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/OOS_US_WealthQuintile
+<http://www.kdeproject.owl/OOS_US_WealthQuintile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/Region
+<http://www.kdeproject.owl/Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kdeproject.owl/SubRegion
+<http://www.kdeproject.owl/SubRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
